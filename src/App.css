@@ -1,0 +1,21 @@
+  .navbar-header {
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  #home {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../public/images/main-background.jpeg) no-repeat top center;
+    background-size: cover !important;
+   -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+ }
